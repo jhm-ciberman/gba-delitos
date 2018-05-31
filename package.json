@@ -1,0 +1,42 @@
+{
+  "name": "gba-delitos",
+  "version": "1.0.0",
+  "description": "A small Node console app that let you download ALL the info from https://mapa.seguridadciudad.gob.ar/",
+  "main": "./dist/index.js",
+  "bin": {
+    "gba-delitos": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link": "npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhm-ciberman/gba-delitos.git"
+  },
+  "keywords": [
+    "gba",
+    "delitos",
+    "delincuencia",
+    "big",
+    "data",
+    "data",
+    "buenos",
+    "aires",
+    "argentina"
+  ],
+  "author": "Javier Ciberman Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhm-ciberman/gba-delitos/issues"
+  },
+  "homepage": "https://github.com/jhm-ciberman/gba-delitos#readme",
+  "devDependencies": {
+    "@types/node": "^10.1.4",
+    "@types/node-fetch": "^2.1.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.1.2"
+  }
+}
