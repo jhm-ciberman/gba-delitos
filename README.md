@@ -7,7 +7,7 @@ Usage:
 1. Install Node from https://nodejs.org/en/
 2.  Open the Windows/Linux console and install "gba-delitos" with:
 ```bash
-npm install --global gba-delitos
+npm install -g gba-delitos
 ```
 4. Navigate to the directory where you want to generate your CSV file. For example:
 ```bash

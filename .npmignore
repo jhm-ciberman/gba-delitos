@@ -21,5 +21,5 @@ node_modules/
 #default generated file
 gba-delitos.csv
 
-#dist folder
-dist
+#src folder
+src
