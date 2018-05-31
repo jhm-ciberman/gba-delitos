@@ -11,8 +11,6 @@ import CSVFormater from "./CSVFormater";
 export default class Main {
 	static async main() {
 
-		const outFolderName = "gba-delitos";
-
 		const min = new ReportDate(2016, 1);
 		const max = new ReportDate(2017, 6);
 		const reportDateListBuilder = new ReportDateListBuilder();
@@ -45,6 +43,10 @@ export default class Main {
 			}
 		}
 		stream.end();
+
+		console.log(`Ready!!`)
+		console.log(`Output csv file is in: ${outPath}`);
+		console.log(`Bye!`);
 	}
 
 
