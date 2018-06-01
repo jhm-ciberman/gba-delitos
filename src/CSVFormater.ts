@@ -52,7 +52,7 @@ export default class CSVFormater {
 		const date = new Date(anio, mes, dia);
 		return [
 			anio.toString(), //"AÑO",
-			this._monthsNames[mes], //"MES",
+			this._monthsNames[mes - 1], //"MES",
 			this._weekDaysNames[date.getDay()], //"DIA DE LA SEMANA",
 			crime.fecha, //"FECHA DEL HECHO",
 			crime.hora.split(":")[0], //"FRANJA 24 HS",
